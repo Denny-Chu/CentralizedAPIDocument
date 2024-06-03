@@ -382,7 +382,7 @@ Content-Type: application/json
 
 ## 請求示例
 ```http
-GET /api/transaction/history?game=bingo&platform=agent&platform=agent&agentName=agent01&username=user01 HTTP/1.1
+GET /api/game/history?game=bingo&platform=agent&platform=agent&agentName=agent01&username=user01 HTTP/1.1
 Host: {GAME_API_URL}
 Authorization: your_token
 Content-Type: application/json
